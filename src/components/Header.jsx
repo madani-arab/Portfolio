@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Navbar from "./NavBar.jsx";
+import Navbar from "./Navbar.jsx";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
