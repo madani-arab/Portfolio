@@ -67,6 +67,11 @@ const socialLinks = [
             method="POST"
             className="xl:pl-10 2xl:pl-20  "
             >
+                <input 
+    type="hidden" 
+    name="_redirect" 
+    value="https://madani-arab.vercel.app/#contact" 
+  />
 
                 <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                     <div className="mb-4  ">
@@ -74,7 +79,7 @@ const socialLinks = [
                         htmlFor="name"  
                         className="label reveal-up" 
                         >
-                            Name
+                            Nameالله
                         </label>
                         <input 
                         type="text" 
