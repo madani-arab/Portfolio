@@ -20,7 +20,20 @@
   <body>
     <div id="root"></div>
 
-    
+    <script> 
+      
+      // لمنع الزوم التلقائي
+document.addEventListener('DOMContentLoaded', function() {
+    if (/iPhone|iPad|iPod/.test(navigator.userAgent)) {
+        document.addEventListener('focus', function(e) {
+            if (e.target.matches('input, select, textarea')) {
+                document.body.style.zoom = "1";
+            }
+        }, true);
+    }
+});
+      
+      <script/>
     
     <script type="module" src="/src/main.jsx"></script>
   </body>
