@@ -48,7 +48,8 @@ const ProjectCard = ({
 
         <a 
         href={projectLink}
-        target="_blank" 
+       //for now 
+       //  target="_blank" 
         className="absolute inset-0  "
         >
 

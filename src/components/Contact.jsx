@@ -1,3 +1,4 @@
+
 const socialLinks = [
   {
     href: 'https://github.com/madani-arab',
@@ -27,6 +28,7 @@ const socialLinks = [
     </svg>,
     alt: 'Instagram'
   },
+
 ];
 
 
@@ -67,12 +69,12 @@ const socialLinks = [
             method="POST"
             className="xl:pl-10 2xl:pl-20  "
             >
-
+                
                 <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
                     <div className="mb-4  ">
                         <label 
                         htmlFor="name"  
-                        className="label reveal-up" 
+                        className="label " 
                         >
                             Name
                         </label>
@@ -91,7 +93,7 @@ const socialLinks = [
                     <div className="mb-4">
                         <label 
                         htmlFor="email"  
-                        className="label reveal-up" 
+                        className="label " 
                         >
                             Email
                         </label>

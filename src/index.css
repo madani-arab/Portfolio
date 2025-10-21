@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -147,5 +148,4 @@ body {
  }
 
  .text-field::placeholder{
-  @apply text-zinc-400 
- }
+  @apply text-zinc-400 }
