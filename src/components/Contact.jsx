@@ -65,7 +65,7 @@ const socialLinks = [
             </div>
 
             <form 
-            action="https://getform.io/f/agdjznyb" 
+            action="https://getform.io/f/bvrmqplb" 
             method="POST"
             className="xl:pl-10 2xl:pl-20  "
             >
